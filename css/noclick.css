@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 60px;
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #4a148c;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+nav ul a[href="Memes.html"] {
+    background-color: #FFD700;
+    color: #000;
+    border: 2px solid #FFC107;
+}
+
+nav ul a[href="Memes.html"]:hover {
+    background-color: #FFC107;
+    border-color: #FFA000;
+}
+
+nav ul a[href="noledesclick.html"] {
+    background-color: #FF4500;
+    color: white;
+    border: 2px solid #FF6347;
+}
+
+nav ul a[href="noledesclick.html"]:hover {
+    background-color: #FF6347;
+    border-color: #FF0000;
+}
+
+.cover {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 80px 20px;
+    color: white;
+    background-image: url(../ima/negr0.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+}
+
+.negrita {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0080ff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+
+.video-container {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.video-container video {
+    max-width: 100%; 
+    height: auto; 
+}
